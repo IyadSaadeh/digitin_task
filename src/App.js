@@ -1,9 +1,11 @@
 import "./App.css";
-
+import SideBar from "./components/SideBar/SideBar";
+import General from "./components/GeneralInfo/GeneralInfo";
 function App() {
   return (
     <div className="App">
-      <h1>Start Task</h1>
+      <SideBar/>
+      <General/>
     </div>
   );
 }

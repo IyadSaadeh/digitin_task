@@ -1,0 +1,24 @@
+.row{
+    display:flex;
+    flex-direction: row-reverse;
+    gap:5vw;
+    max-width: 30vw !important;
+    padding:0;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius:.50rem; 
+    box-shadow: 0px 0px 0px 1px rgb(230, 230, 230);
+}
+.row h5{
+    /* justify-content: end;
+    align-content: flex-end; */
+}
+.generalInfo p{
+    display: flex;
+    flex-direction: row;
+    gap:2vw;
+    justify-content: flex-end;
+
+}
+.generalInfo span{
+    color:rgb(255, 89, 0);
+}
